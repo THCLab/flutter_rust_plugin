@@ -16,8 +16,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
-  final _flutterRustPlugin = FlutterRustPlugin();
+  String _hello = 'Unknown';
 
   @override
   void initState() {
@@ -27,14 +26,14 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    String platformVersion;
+    String hello;
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion =
-          await _flutterRustPlugin.getPlatformVersion() ?? 'Unknown platform version';
+      hello =
+          await FlutterRustPlugin.hello();
     } on PlatformException {
-      platformVersion = 'Failed to get platform version.';
+      hello = 'Failed to get hello.';
     }
 
     // If the widget was removed from the tree while the asynchronous platform
@@ -43,7 +42,7 @@ class _MyAppState extends State<MyApp> {
     if (!mounted) return;
 
     setState(() {
-      _platformVersion = platformVersion;
+      _hello = hello;
     });
   }
 
@@ -55,7 +54,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Text('Running on: $_hello\n'),
         ),
       ),
     );

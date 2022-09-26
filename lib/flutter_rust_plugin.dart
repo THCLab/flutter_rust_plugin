@@ -1,8 +1,20 @@
+import 'dart:ffi';
+import 'dart:io';
 
-import 'flutter_rust_plugin_platform_interface.dart';
+import 'package:flutter_rust_plugin/bridge_generated.dart';
 
 class FlutterRustPlugin {
-  Future<String?> getPlatformVersion() {
-    return FlutterRustPluginPlatform.instance.getPlatformVersion();
+  static const base = 'rust_part';
+  static final path = Platform.isWindows? '$base.dll' : 'lib$base.so';
+  static late final dylib = Platform.isIOS
+      ? DynamicLibrary.process()
+      : Platform.isMacOS
+      ? DynamicLibrary.executable()
+      : DynamicLibrary.open(path);
+  static late final api = RustPartImpl(dylib);
+
+  static Future<String> hello() async{
+    var hello = await api.hello();
+    return hello;
   }
 }
