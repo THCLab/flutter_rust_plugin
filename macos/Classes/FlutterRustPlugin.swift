@@ -16,4 +16,9 @@ public class FlutterRustPlugin: NSObject, FlutterPlugin {
       result(FlutterMethodNotImplemented)
     }
   }
+
+  public func dummyMethodToEnforceBundling() {
+       // This will never be executed
+      dummy_method_to_enforce_bundling();
+  }
 }

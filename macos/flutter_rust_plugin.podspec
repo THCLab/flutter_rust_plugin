@@ -15,6 +15,9 @@ Flutter with Rust plugin proof of concept
 
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
+  s.vendored_libraries = "**/*.dylib"
+  s.public_header_files = 'Classes**/*.h'
+  s.static_framework = true
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.11'

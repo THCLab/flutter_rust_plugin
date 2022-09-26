@@ -1,0 +1,22 @@
+PODS:
+  - flutter_rust_plugin (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - flutter_rust_plugin (from `Flutter/ephemeral/.symlinks/plugins/flutter_rust_plugin/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  flutter_rust_plugin:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_rust_plugin/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  flutter_rust_plugin: 7d504448c9ec4f3f54b4f26914d30f032ecce962
+  FlutterMacOS: 85f90bfb3f1703249cf1539e4dfbff31e8584698
+
+PODFILE CHECKSUM: a884f6dd3f7494f3892ee6c81feea3a3abbf9153
+
+COCOAPODS: 1.11.3
