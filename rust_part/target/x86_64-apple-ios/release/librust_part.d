@@ -1,0 +1,1 @@
+/Users/justynagreda/Documents/flutter_rust_plugin/rust_part/target/x86_64-apple-ios/release/librust_part.a: /Users/justynagreda/Documents/flutter_rust_plugin/rust_part/src/api.rs /Users/justynagreda/Documents/flutter_rust_plugin/rust_part/src/lib.rs

@@ -1,0 +1,11 @@
+/Users/justynagreda/Documents/flutter_rust_plugin/rust_part/target/aarch64-apple-ios/release/deps/time-a9910fb125b3d381.rmeta: /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/lib.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/display.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/duration.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/parse.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/sys.rs
+
+/Users/justynagreda/Documents/flutter_rust_plugin/rust_part/target/aarch64-apple-ios/release/deps/libtime-a9910fb125b3d381.rlib: /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/lib.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/display.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/duration.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/parse.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/sys.rs
+
+/Users/justynagreda/Documents/flutter_rust_plugin/rust_part/target/aarch64-apple-ios/release/deps/time-a9910fb125b3d381.d: /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/lib.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/display.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/duration.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/parse.rs /Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/sys.rs
+
+/Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/lib.rs:
+/Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/display.rs:
+/Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/duration.rs:
+/Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/parse.rs:
+/Users/justynagreda/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.44/src/sys.rs:
