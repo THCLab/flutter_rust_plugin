@@ -1,0 +1,1 @@
+C:\Users\66jus\Documents\GitHub\flutter_rust_plugin\rust_part\target\aarch64-linux-android\debug\librust_part.a: C:\Users\66jus\Documents\GitHub\flutter_rust_plugin\rust_part\src\api.rs C:\Users\66jus\Documents\GitHub\flutter_rust_plugin\rust_part\src\lib.rs
